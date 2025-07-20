@@ -5,6 +5,6 @@
 </section>
 <hr class="my-3">
 <section class="text-center my-5">
-    <h5 class="display-4 text-neon">Le site est en cours de construction...</h5>
+    <h5 class="text-neon">Le site est en cours de construction...</h5>
 </section>
 <hr class="my-3">
