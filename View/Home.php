@@ -2,5 +2,7 @@
     <h1 class="display-4 text-neon">FERMENT Rémi</h1>
     <p class="lead">Un développeur audacieux et motivé !</p>
     <a href="/assets/CV.pdf" class="btn btn-outline-neon mt-3" target="_blank">Téléchargez mon CV</a>
-
+</section>
+<section class="text-center my-5">
+    <h2 class="display-4 text-neon">Le site est en cours de construction...</h2>
 </section>
