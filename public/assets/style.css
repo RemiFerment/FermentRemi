@@ -1,0 +1,25 @@
+body {
+    background-color: #0a0a0f;
+    color: #eaeaea;
+    font-family: 'Roboto', sans-serif;
+}
+
+.text-neon {
+    color: #a855f7;
+    text-shadow: 0 0 5px #a855f7, 0 0 10px #7c3aed;
+}
+
+
+
+.btn-outline-neon {
+    color: #a855f7;
+    border-color: #bf80f9;
+    transition: all 0.3s;
+    box-shadow: 0 0 5px #a855f7, 0 0 10px #7c3aed;
+}
+
+.btn-outline-neon:hover {
+    background-color: #a855f7;
+    color: #0a0a0f;
+    box-shadow: 0 0 5px #a855f7, 0 0 100px #7c3aed;
+}
