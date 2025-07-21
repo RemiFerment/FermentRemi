@@ -1,0 +1,68 @@
+$primaryColor : #a955f7;
+$secondaryColor : #7c3aed;
+
+
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,,800,900);
+
+html {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  background-color: #0a0a0f;
+  color: #eaeaea;
+  font-family: 'Roboto', sans-serif;
+  width: 100%;
+  height: 100%;
+}
+
+.container {
+  overflow: visible;
+}
+
+.title {
+  font-weight: 800;
+  color: transparent;
+  font-size: 120px;
+  background: url("../img/space.jpg") repeat;
+  background-repeat: repeat;
+  background-position: 40% 50%;
+  background-clip: text;
+  position: relative;
+  text-align: center;
+  line-height: 90px;
+  letter-spacing: -8px;
+  overflow: visible;
+  background-size: 1000px auto;
+  -webkit-text-stroke: 1px $primaryColor;
+  /* Contour noir */
+}
+
+.subtitle {
+  display: block;
+  text-align: center;
+  text-transform: uppercase;
+  padding-top: 10px;
+}
+
+
+.text-neon {
+  color: $primaryColor;
+  text-shadow: 0 0 5px $primaryColor, 0 0 10px $secondaryColor;
+}
+
+
+
+.btn-outline-neon {
+  color: $primaryColor;
+  border-color: #bf80f9;
+  transition: all 0.3s;
+  box-shadow: 0 0 5px $primaryColor, 0 0 10px $secondaryColor;
+}
+
+.btn-outline-neon:hover {
+  background-color: $primaryColor;
+  color: #0a0a0f;
+  box-shadow: 0 0 5px $primaryColor, 0 0 100px $secondaryColor;
+}
