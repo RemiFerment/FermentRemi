@@ -1,10 +1,5 @@
-@mixin center() {
-  -webkit-transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
-  left: 50%;
-  top: 50%;
-}
+$primaryColor : #a955f7;
+$secondaryColor : #7c3aed;
 
 
 @import url(https://fonts.googleapis.com/css?family=Raleway:400,,800,900);
@@ -15,30 +10,33 @@ html {
 }
 
 body {
-  background: -webkit-linear-gradient(rgb(235, 236, 231), rgb(255, 255, 255));
-  background: linear-gradient(rgb(235, 236, 231), rgb(255, 255, 255));
-  margin: 0;
+  background-color: #0a0a0f;
+  color: #eaeaea;
+  font-family: 'Roboto', sans-serif;
   width: 100%;
   height: 100%;
-  font-family: 'Raleway', sans-serif;
 }
 
 .container {
-  position: absolute;
-  @include center();
+  overflow: visible;
 }
 
 .title {
   font-weight: 800;
   color: transparent;
   font-size: 120px;
-  background: url("https://phandroid.s3.amazonaws.com/wp-content/uploads/2014/05/rainbow-nebula.jpg") repeat;
+  background: url("../img/space.jpg") repeat;
+  background-repeat: repeat;
   background-position: 40% 50%;
   background-clip: text;
   position: relative;
   text-align: center;
   line-height: 90px;
   letter-spacing: -8px;
+  overflow: visible;
+  background-size: 1000px auto;
+  -webkit-text-stroke: 1px $primaryColor;
+  /* Contour noir */
 }
 
 .subtitle {
@@ -46,4 +44,25 @@ body {
   text-align: center;
   text-transform: uppercase;
   padding-top: 10px;
+}
+
+
+.text-neon {
+  color: $primaryColor;
+  text-shadow: 0 0 5px $primaryColor, 0 0 10px $secondaryColor;
+}
+
+
+
+.btn-outline-neon {
+  color: $primaryColor;
+  border-color: #bf80f9;
+  transition: all 0.3s;
+  box-shadow: 0 0 5px $primaryColor, 0 0 10px $secondaryColor;
+}
+
+.btn-outline-neon:hover {
+  background-color: $primaryColor;
+  color: #0a0a0f;
+  box-shadow: 0 0 5px $primaryColor, 0 0 100px $secondaryColor;
 }

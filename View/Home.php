@@ -9,5 +9,8 @@
 </section>
 <hr class="my-5"> -->
 <div class="container">
-    <div class="title">RÉMI FERMENT</div>
+    <div class="title">
+        Rémi <br> FERMENT
+    </div>
+    <div class="subtitle"> Un développeur audacieux et motivé ! </div>
 </div>
